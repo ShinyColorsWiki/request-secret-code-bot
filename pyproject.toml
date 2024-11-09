@@ -1,0 +1,19 @@
+[project]
+name = "request-secret-code"
+version = "0.1.0"
+description = "Discord bot for generate Secret-QuestyCaptcha"
+authors = [{ name = "ShinycolorsWiki", email = "contact@shinycolors.wiki" }]
+dependencies = [
+    "py-cord[speed]>=2.6.1",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.6.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+universal = true
+dev-dependencies = []
