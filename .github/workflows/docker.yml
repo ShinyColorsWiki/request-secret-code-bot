@@ -67,6 +67,3 @@ jobs:
             ghcr.io/shinycolorswiki/request-secret-code-bot:latest
             ghcr.io/shinycolorswiki/request-secret-code-bot:${{ github.sha }}
             ghcr.io/shinycolorswiki/request-secret-code-bot:${{ steps.version.outputs.version }}
-            quay.io/shinycolorswiki/request-secret-code-bot:latest
-            quay.io/shinycolorswiki/request-secret-code-bot:${{ github.sha }}
-            quay.io/shinycolorswiki/request-secret-code-bot:${{ steps.version.outputs.version }}
